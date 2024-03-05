@@ -1,6 +1,12 @@
 # hanky-lisp
  
-Hanky-lisp is some Common Lisp codes for daily programming.
+Hanky-lisp is some Common Lisp codes for daily programming, and it's writed based by sbcl on linux.
+
+It's can be loaded simply just by load the "load-hanky-lisp.lisp". You can add a line in your .sbclrc:
+
+    (load "[your-hanky-lisp-path]/load-hanky-lisp.lisp")
+
+Then you can use the hanky-lisp! You can try to write (man 'man) in your repl.
 
 It can do:
 
