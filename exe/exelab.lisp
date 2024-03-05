@@ -1,0 +1,6 @@
+(defmacro let-args-input (&body body)
+  `(let ((args sb-ext:*posix-argv*))
+     ,@body))
+'(docs "在制作可执行文件时从标准输入读取数据到 args 变量并捕获")
+'(keys (main exe args))
+'(examples ((let-args-input (format t "~A~%" args))))

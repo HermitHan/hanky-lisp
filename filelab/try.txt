@@ -1,0 +1,8 @@
+* 这是本文件的开头(测试 read-line-except)
+name	sex	age	score
+hermit	male	23	95
+fool	male	23	0
+queen	female	25	99
+x	unknown	30	50
+kiwi	female	25	100
+end	binary	77	88
